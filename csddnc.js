@@ -18,9 +18,9 @@ let cookie = $.isNode() ? (process.env.ddcookie ? process.env.ddcookie : "") : (
 //cookiearr = ddcookie.split('@');//使用@分解字符串变成数组
 
 
-let cookie = ""  , A = '' , B = '', cookies = ''
+let cookie = ""  , A = '' , B = ''
 
-
+let cookies = ''
 
 let taskcode = ''
 let taskid = ''
